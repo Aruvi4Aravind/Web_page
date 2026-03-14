@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy 6th Birthday!</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Audio Element -->
+    <audio id="bg-music" loop>
+        <!-- A placeholder for background music -->
+        <source src="birthday_music_placeholder.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <button id="music-toggle" class="music-btn">🎵 Play Music</button>
+
+    <!-- Balloon Animation Container (On Load) -->
+    <div id="onload-balloons">
+        <!-- Balloons will be injected by JS -->
+    </div>
+
+    <!-- Hero Banner -->
+    <section id="hero" class="section banner">
+        <h1 class="title">Happy 6th Birthday!</h1>
+        <p class="subtitle">Welcome to the biggest celebration of the year!</p>
+        <img src="hero_birthday_star_placeholder.jpg" alt="Birthday Star" class="hero-image">
+    </section>
+
+    <!-- About the Birthday Star -->
+    <section id="about" class="section">
+        <h2>About the Birthday Star 🌟</h2>
+        <div class="about-content">
+            <img src="photos\Superstar.jpg" alt="Profile Picture" class="profile-pic">
+            <p>Our little superstar is officially 6! He loves playing with toys, running around the park, and eating
+                lots of Ice cream!</p>
+        </div>
+    </section>
+
+    <!-- Photo Gallery -->
+    <section id="gallery" class="section bg-light">
+        <h2>Photo Gallery 📸</h2>
+        <div class="gallery-grid">
+            <div class="gallery-item"><img src="gallery_image_1_placeholder.jpg" alt="Memory 1"></div>
+            <div class="gallery-item"><img src="gallery_image_2_placeholder.jpg" alt="Memory 2"></div>
+            <div class="gallery-item"><img src="gallery_image_3_placeholder.jpg" alt="Memory 3"></div>
+            <div class="gallery-item"><img src="gallery_image_4_placeholder.jpg" alt="Memory 4"></div>
+            <div class="gallery-item"><img src="gallery_image_5_placeholder.jpg" alt="Memory 5"></div>
+            <div class="gallery-item"><img src="gallery_image_6_placeholder.jpg" alt="Memory 6"></div>
+        </div>
+    </section>
+
+    <!-- Fun Facts -->
+    <section id="fun-facts" class="section">
+        <h2>Fun Facts 🤔</h2>
+        <ul class="facts-list">
+            <li>🏎️ Favorite Toy: Remote JCB </li>
+            <li>🍕 Favorite Food: Ice cream</li>
+            <li>🦸 Superpower: Making everyone smile!</li>
+        </ul>
+    </section>
+
+    <!-- Family Messages -->
+    <section id="messages" class="section bg-light">
+        <h2>Family Messages 💌</h2>
+        <div class="messages-container">
+            <div class="message-card">
+                <p>"Happy Birthday to the most amazing 6-year-old! We love you so much!"</p>
+                <span>- Mom & Dad</span>
+            </div>
+            <div class="message-card">
+                <p>"You are growing up so fast! Have the best birthday ever."</p>
+                <span>- Grandmas</span>
+            </div>
+            <div class="message-card">
+                <p>"To my favorite nephew, let's play all day today!"</p>
+                <span>- Chitappas</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video -->
+    <section id="video" class="section">
+        <h2>Pongal Video 🎥</h2>
+        <div class="video-container">
+            <!-- Replace with actual video file or YouTube iframe -->
+            <video controls width="100%" class="styled-video">
+                <source src="birthday_video_placeholder.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </section>
+
+    <!-- Mini Game (Balloon Pop) -->
+    <section id="game" class="section bg-fun">
+        <h2>🎈 Mini Game: Balloon Pop! 🎈</h2>
+        <p>Click the balloons to pop them before they fly away!</p>
+        <div id="game-area">
+            <span id="score-board">Score: <span id="score">0</span></span>
+            <button id="start-game" class="btn">Start Game</button>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>Made with ❤️ to celebrate an amazing 6th Birthday!</p>
+    </footer>
+
+    <!-- Confetti Library -->
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+    <!-- Custom Script -->
+    <script src="script.js"></script>
+</body>
+
+</html>
